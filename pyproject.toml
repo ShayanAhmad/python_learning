@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "learning1"
+version = "0.1.0"
+description = ""
+authors = ["Shayan Ahmad <shayan.ahmed@longliveapp.com>"]
+readme = "README.md"
+packages = [{include = "learning1", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
